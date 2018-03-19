@@ -59,7 +59,7 @@ class WordDictionary {
 		{
 			for (TrieNode child : node.children)
 			{
-				if (node !=null && search(child, word, index+1))
+				if (child !=null && search(child, word, index+1))
 				{
 					return true;
 				}
