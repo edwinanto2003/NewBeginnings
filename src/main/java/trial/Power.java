@@ -19,7 +19,7 @@ public class Power
 	public static void main(String[] args)
 	{
 
-		System.out.println(Power.pow(0.1, 40)/1000000 + " km");
+		System.out.println(Power.pow(0.1, 100)/1000000 + " km");
 	}
 
 }
