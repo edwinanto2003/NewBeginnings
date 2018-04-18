@@ -30,7 +30,7 @@ public class TrieTester
 		List<String> allwords = t.printDFS();
 		System.out.println(allwords);
 		
-		System.out.println(t.searchWC("..."));
+		System.out.println(t.searchWC(".d."));
 	}
 
 }
