@@ -37,7 +37,6 @@ public class Trie
 			path.append(node.c);
 			paths.add(path.toString());
 			path.delete(len, path.length());
-			;
 		}
 		path.append(node.c);
 		for (TrieNode child : node.children)

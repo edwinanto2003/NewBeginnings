@@ -43,7 +43,6 @@ public class test
 			if (entry.getValue() == maxFreq)
 				result.add(entry.getKey());
 		}
-
 		return result;
 
 	}

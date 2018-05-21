@@ -2,13 +2,13 @@ package com.edwin.advancedDS;
 
 class WordDictionary {
 
-	public class TrieNode
-	{
-		char c;
-		boolean complete;
-
-		TrieNode[] children = new TrieNode[26];        
-	}
+//	public class TrieNode
+//	{
+//		char c;
+//		boolean complete;
+//
+//		TrieNode[] children = new TrieNode[26];        
+//	}
 
 	TrieNode root = null;
 
@@ -90,7 +90,7 @@ public static void main(String[] args)
 
 	 WordDictionary obj = new WordDictionary();
 	 obj.addWord("add");
-	 boolean param_2 = obj.search("add");
+	 boolean param_2 = obj.search(".d.");
 	 System.out.println(param_2);
 }
 }
